@@ -184,35 +184,6 @@ Tools
 - sqlyog
 - cf builder (express edition)
 
-ttpr
-----------------
-10.16.126.146
-Lucee 5.xx
-- port: 80
-- ftp / shared folder (administrator / P@ssw0rd1234)
-- ttpr user : ratneswari / ratna
-- lucee admin: http://10.16.126.146/lucee/admin/server.cfm
- - pwd:
-
-MySQL (dev)
-----------------
- - 10.16.126.98
- - id:upa_native / upa_dev pwd:P@ssw0rd
- - port: 3311
- - ssh root/P@ssw0rd1234
- - create database ttpr;
- - grant all privileges on ttpr.* to 'ttpr'@'%' identified by 'P@ssw0rd'
-
-Oracle
-----------------
-- production shj
-- 10.16.126.14
-- id: ettpr_dev pwd:ettprdev
-- port: 1525
-- SID : kpkt
-
-
-
 ecores
 
 eaduan
