@@ -1,0 +1,218 @@
+migration
+-------------
+shakirah
+1. COUNTER_EHOME, 
+2. SEJ_ONLINE, 
+3. T_ADDITIONAL, 
+4. T_ADDITIONAL_QUEUE, 
+5. T_AWARD, 
+
+bushra
+6. T_AWARD_DISOBEY, 
+7. T_AWARD_DISOBEY_DETAIL, 
+8. T_AWARD_HISTORY,
+9. T_CLAIMS, 
+10. T_CONTACT, 
+
+wawa
+11. T_CONTACT_HISTORY, 
+12. T_CONTACT_QUEUE, 
+13. T_EXHIBIT, 
+14. T_EXHIBIT_DETAIL, 
+15. T_FILE_TRACKING, 
+
+Surizan
+16. T_FORM1, 
+17. T_FORM1_QUEUE, 
+18. T_FORM11, 
+19. T_FORM12, 
+20. T_FORM2, 
+
+Azrul
+21. T_FORM2_QUEUE, 
+22. T_FORM3, 
+23. T_FORM3_QUEUE, 
+24. T_FORM4, 
+25. T_FRMK_AUDITTRAIL, 
+
+salinda
+26. T_FRMK_COMPANY_PROFILE, 
+27. T_FRMK_LANGUAGE, 
+28. T_FRMK_LOGIN_SESSION, 
+29. T_FRMK_LOSTPASSWORD, 
+30. T_FRMK_MENU, 
+
+ros
+31. T_FRMK_MENUITEM, 
+32. T_FRMK_MENUITEM_ROLE, 
+33. T_FRMK_MENUROLE, 
+34. T_FRMK_MODULES, 
+35. T_FRMK_POSTAL_ADDRESS, 
+
+awi
+36. T_FRMK_PRIVILEGES, 
+37. T_FRMK_ROLE_PRIVILEGE, 
+38. T_FRMK_ROLES, 
+39. T_FRMK_SUBMODULES, 
+40. T_FRMK_USER, 
+
+khairul
+41. T_FRMK_USER_DELETED, 
+42. T_FRMK_USER_PROFILE_EXTERNAL, 
+43. T_FRMK_USER_PROFILE_INTERNAL, 
+44. T_FRMK_USER_ROLES, 
+45. T_HEARING, 
+
+wani
+46. T_HEARING_AMMEND, 
+47. T_HEARING_HISTORY, 
+48. T_HEARING_MAPHISTORY, 
+49. T_HEARING_STATUS, 
+50. T_HOLIDAY_STATE, 
+
+hidayat
+51. T_JUDICIAL_REVIEW, 
+52. T_JUDICIAL_REVIEW_DETAIL, 
+53. T_NOTICE_STOP, 
+54. T_PAYMENT, 
+55. T_PAYMENT_QUEUE, 
+
+cikgu azman
+56. T_PRESIDEN_AVAILABILITY, 
+57. T_PROSIDING_NOTES, 
+58. T_REF_AGE, 
+59. T_REF_APPLYMETHOD, 
+60. T_REF_AUDITTRAIL, 
+
+
+
+shakirah
+61. T_REF_AWARD, 
+62. T_REF_AWARDSTATUS, 
+63. T_REF_CAUSE, 
+64. T_REF_CHECKLIST, 
+65. T_REF_CITIZENSHIP, 
+
+bushra
+66. T_REF_CLAIMNO, 
+67. T_REF_CLAIMSTATUS, 
+68. T_REF_CLAIMTYPE, 
+69. T_REF_COURT, 
+70. T_REF_COURTNO, 
+
+wawa
+71. T_REF_CRITERIA, 
+72. T_REF_DESG_COMPANY, 
+73. T_REF_DESIGNATION, 
+74. T_REF_DISTRICT, 
+75. T_REF_EMAIL, 
+
+Surizan
+76. T_REF_ENFORCEMENT, 
+77. T_REF_FORM, 
+78. T_REF_GENDER, 
+79. T_REF_HIGHCOURT, 
+80. T_REF_HOLIDAY, 
+
+Azrul
+81. T_REF_HRGSTANDING, 
+82. T_REF_HRGSTATUS, 
+83. T_REF_JOBS, 
+84. T_REF_KAUSA, 
+85. T_REF_LANG, 
+
+salinda
+86. T_REF_LANGUAGE, 
+87. T_REF_MONTH, 
+88. T_REF_NOTICE, 
+89. T_REF_PAYMENTSTATUS, 
+90. T_REF_PAYMENTTYPE, 
+91. T_REF_PRESIDEN, 
+92. T_REF_RACE, 
+93. T_REF_RELATION, 
+94. T_REF_REPORT, 
+95. T_REF_SALUTATION, 
+96. T_REF_STATE, 
+97. T_REF_STATUS, 
+98. T_REF_STATUS_PRESIDEN, 
+99. T_REF_STATUS_USER, 
+100. T_REF_TERMS,
+ 
+ros
+101. T_REF_TIMEHEARING, 
+102. T_REF_VENUE, 
+103. T_REF_ZONE, 
+104. T_REMINDER, 
+105. T_RESTRAIN_ORDER, 
+
+awi
+106. T_SUMMARY, 
+107. T_SYS_CONFIG, 
+108. T_SYS_CONFIG_DB, 
+109. T_TECH_DETAIL, 
+110. T_TECHNICAL, 
+
+khairul
+111. T_TECHNICAL_IMAGES, 
+112. T_TECHNICAL_OFFICER, 
+113. T_TEMPLATE, 
+114. T_USER_CLAIMS, 
+115. TEMP_ADD, 
+
+wani
+116. TEMP_CLAIMS, 
+117. TEMP_CONTACT, 
+118. TEMP_USER_CLAIMS, 
+119. Z_CODE_RES_TYPE, 
+120. Z_CODE_STATUS, 
+
+hidayat
+121. Z_HEARING_VENUE, 
+122. Z_PERTANYAAN, 
+123. Z_UTILITY
+
+decimal(19,0) -> numeric(19,0)
+
+sqlines
+---------
+> 
+
+
+Tools
+-------
+- oracle sql developer
+- sqlyog
+- cf builder (express edition)
+
+ttpr
+----------------
+10.16.126.146
+Lucee 5.xx
+- port: 80
+- ftp / shared folder (administrator / P@ssw0rd1234)
+- ttpr user : ratneswari / ratna
+- lucee admin: http://10.16.126.146/lucee/admin/server.cfm
+ - pwd:
+
+MySQL (dev)
+----------------
+ - 10.16.126.98
+ - id:upa_native / upa_dev pwd:P@ssw0rd
+ - port: 3311
+ - ssh root/P@ssw0rd1234
+ - create database ttpr;
+ - grant all privileges on ttpr.* to 'ttpr'@'%' identified by 'P@ssw0rd'
+
+Oracle
+----------------
+- production shj
+- 10.16.126.14
+- id: ettpr_dev pwd:ettprdev
+- port: 1525
+- SID : kpkt
+
+
+
+ecores
+
+eaduan
