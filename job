@@ -127,11 +127,15 @@ salinda
 88. T_REF_NOTICE, 
 89. T_REF_PAYMENTSTATUS, 
 90. T_REF_PAYMENTTYPE, 
+
+salinda
 91. T_REF_PRESIDEN, 
 92. T_REF_RACE, 
 93. T_REF_RELATION, 
 94. T_REF_REPORT, 
 95. T_REF_SALUTATION, 
+
+azman
 96. T_REF_STATE, 
 97. T_REF_STATUS, 
 98. T_REF_STATUS_PRESIDEN, 
@@ -170,20 +174,3 @@ hidayat
 121. Z_HEARING_VENUE, 
 122. Z_PERTANYAAN, 
 123. Z_UTILITY
-
-decimal(19,0) -> numeric(19,0)
-
-sqlines
----------
-> 
-
-
-Tools
--------
-- oracle sql developer
-- sqlyog
-- cf builder (express edition)
-
-ecores
-
-eaduan
